@@ -1,3 +1,6 @@
 # print product with a tab
 # move to the next line after each row
 
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end='\t')
